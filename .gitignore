@@ -1,0 +1,37 @@
+# Environment files
+.env
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+*.tar
+
+# Kubernetes
+*.yaml
+.kube/
+kompose/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# Temporary and backup files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Sensitive or generated files
+db-data/
